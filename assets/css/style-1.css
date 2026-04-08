@@ -1,0 +1,316 @@
+
+:root {
+  --primary : #80d642;
+  --primary-10 : #80d64210;
+  --primary-20 : #80d64220;
+  --primary-30 : #80d64230;
+  --primary-40 : #80d64240;
+  --primary-50 : #80d64250;
+  --primary-60 : #80d64260;
+  --primary-70 : #80d64270;
+  --primary-80 : #80d64280;
+  --primary-90 : #80d64290;
+
+  --primary-hover : #4e8328;
+
+  --white : #ffffff;
+  --white-90 : #ffffff90;
+  --white-80 : #ffffff80;
+  --white-70 : #ffffff70;
+  --white-60 : #ffffff60;
+  --white-50 : #ffffff50;
+  --white-40 : #ffffff40;
+  --white-30 : #ffffff30;
+  --white-20 : #ffffff20;
+  --white-10 : #ffffff10;
+
+}
+
+
+/* water-testing-service */
+
+.water-testing-about {
+  margin-top: 3rem;
+}
+
+.water-testing-service{
+  position: relative;
+  padding: 143px 0px 120px 0px;
+}
+
+.water-testing-service .pattern-layer{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 917px;
+  height: 578px;
+  background-repeat: no-repeat;
+}
+
+.water-testing-pattern-layer {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 917px;
+  height: 578px;
+  background-repeat: no-repeat;
+}
+
+.water-testing-service .tab-btn-box{
+  position: relative;
+  display: block;
+  margin-bottom: 60px;
+}
+
+.water-testing-service .tab-btn-box .tab-btns li{
+  position: relative;
+  display: inline-block;
+  float: left;
+  margin-right: 20px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #222;
+  font-weight: 600;
+  border: 1px solid #e5e5e5;
+  text-align: center;
+  border-radius: 30px;
+  padding: 9px 23px;
+  cursor: pointer;
+  transition: all 500ms ease;
+  background-color: white;
+}
+
+.water-testing-service .tab-btn-box .tab-btns li:last-child{
+  margin: 0px !important;
+}
+
+.water-testing-service .tab-btn-box .tab-btns li.active-btn,
+.water-testing-service .tab-btn-box .tab-btns li:hover{
+  color: #fff;
+}
+
+.water-testing-service .tabs-box .single-item{
+  position: relative;
+  display: block;
+  background: #fff;
+  padding: .1rem 1.5rem 2rem 1.5rem;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 50px rgb(0 0 0 / 10%);
+}
+
+.water-testing-service .tabs-box .single-item h4{
+  margin-bottom: 10px;
+  line-height: 24px;
+}
+
+.water-testing-service .tabs-box .single-item .discription{
+  position: relative;
+  display: block;
+  margin-bottom: 17px;
+}
+
+.water-testing-service .tabs-box .single-item .discription p span{
+  color: #142441;
+}
+
+.water-testing-service .tabs-box .single-item .text{
+  position: relative;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.water-testing-service .tabs-box .single-item .odi-code{
+  position: relative;
+  display: block;
+  margin-bottom: 24px;
+}
+
+.water-testing-service .tabs-box .single-item .odi-code p span{
+  font-weight: 600;
+}
+
+.water-testing-service .tabs-box .single-item .download-option a{
+  position: relative;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 26px;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  padding: 6px 20px;
+  border-radius: 30px;
+  text-transform: uppercase;
+}
+
+.water-testing-service .tabs-box .single-item .download-option a i{
+  margin-right: 8px;
+}
+
+.water-testing-service .tabs-box .single-item .download-option a:hover{
+  color: #fff;
+}
+
+.water-testing-download-option a{
+  position: relative;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 26px;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  padding: 6px 20px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  background-color: var(--primary);
+}
+
+.water-testing-download-option a i{
+  margin-right: 8px;
+}
+
+.water-testing-download-option a:hover{
+  color: #fff;
+  background-color: var(--primary-hover);
+}
+
+
+.water-testing-service .parameters {
+  margin: 2rem 0 1.5rem 0;
+  line-height: 3rem;
+  color: #142441;
+}
+
+.water-testing-service .parameters .parameter-btn {
+  border: 1px solid #e5e5e5;
+  text-align: center;
+  border-radius: 30px;
+  padding: .3rem .6rem;
+  margin: 0 .2rem;
+}
+
+.water-testing-parameters {
+  margin: 2rem 0 1.5rem 0;
+  line-height: 2.3rem;
+  color: #142441;
+  position: relative;
+}
+
+.water-testing-parameter-btn {
+  border: 1px solid #e5e5e5 !important;
+  text-align: center !important;
+  border-radius: 30px !important;
+  padding: .3rem .6rem !important;
+  margin: 0 .2rem !important;
+}
+@media  (max-width:599px){
+  .water-testing-parameter-btn{
+    padding: .1rem .4rem !important;
+  }
+}
+@media  (max-width:370px){
+  .water-testing-parameter-btn{
+    padding: .1rem .1rem !important;
+  }
+}
+
+.water-testing-service .sec-title {
+  margin-bottom: 60px;
+}
+
+.water-testing-sec-pad {
+  padding: 2rem 2rem;
+}
+
+.water-testing-video-style{
+  position: relative;
+}
+
+.water-testing-video-style .inner-box{
+  position: relative;
+  /* width: 100%; */
+  padding: 160px 0px 163px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 2rem;
+  z-index: 1;
+}
+
+.water-testing-video-style .inner-box:before{
+  position: absolute;
+  content: '';
+  background: #000000;
+  /* background: #06194b; */
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  opacity: 0.70;
+}
+
+.water-testing-video-style .video-btn{
+  position: relative;
+  display: block;
+  margin-bottom: 44px;
+}
+
+.water-testing-video-style .video-btn a{
+  position: relative;
+  display: inline-block;
+  width: 98px;
+  height: 98px;
+  font-size: 98px;
+  border-radius: 50%;
+  color: #209295;
+}
+
+.water-testing-video-style .video-btn a:after, 
+.water-testing-video-style .video-btn a:before {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-animation-delay: .9s;
+  animation-delay: .9s;
+  content: "";
+  position: absolute;
+  -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+  -webkit-animation: ripple 3s infinite;
+  animation: ripple 3s infinite;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.water-testing-video-style .video-btn a:after {
+  -webkit-animation-delay: .6s;
+  animation-delay: .6s;
+}
+
+.water-testing-video-style .content-box h3{
+  display: block;
+  font-size: 26px;
+  line-height: 34px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.bg-color-sky-blue {
+  background-color: var(--lab-blue-30);
+}
+
+.why-us .counter-block-two {
+  display: flex;
+  justify-content: center;
+}
